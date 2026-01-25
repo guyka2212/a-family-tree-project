@@ -10,7 +10,6 @@ header {
     padding: 1em;
     text-align: center;
     padding: 10px;
-    justify-content: center;
 }
 main {
     padding: 2em;
@@ -21,16 +20,14 @@ section {
 footer {
     background-color: #00ff08;
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 1em;
     padding: 10px;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
 }
 button {
     background-color: #4CAF50;
     color: white;
-    justify-content: center;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -38,23 +35,17 @@ button {
     text-align: center;
     border-radius: 10px;
     padding: 10px 20px;
-    padding: 1em;
-    padding: 10px;
-    align-items: center;
-    display: flex;
-    align-self: center;
-    justify-content: center;
 }
-/*html{
+html{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: unsafe;
     height: 10vh;
     text-align: center;
     padding: 1em;
     padding: 10px;
-/*    background-color: #00ff08; */
-/*}*/
+    background-color: #00ff08;
+}
 .start-button {
     display: flex;
     justify-content: center;
