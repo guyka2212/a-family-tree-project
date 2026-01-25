@@ -55,6 +55,15 @@ html{
     padding: 1em;
     padding: 10px;
 }
+.help-call-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    align-self: center;
+    padding: 1em;
+    padding: 10px;
+}
 /*button::before{
     position: absolute;
     content: "";
