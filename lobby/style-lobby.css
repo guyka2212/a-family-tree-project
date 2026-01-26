@@ -46,3 +46,9 @@ button {
     align-items: center;
     height: 10vh;
 }
+.done-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
