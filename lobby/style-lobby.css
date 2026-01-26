@@ -1,60 +1,100 @@
-body {
-    font-family: Arial, sans-serif;
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(135deg, #00c853, #a5ff78);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 header {
-    background-color: #00ff08;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
     color: white;
-    padding: 1em;
     text-align: center;
-    padding: 10px;
+    padding: 25px 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
 }
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 main {
-    padding: 2em;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 section {
-    margin-bottom: 5.25em;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    padding: 45px 55px;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
-footer {
-    background-color: #00ff08;
-    color: white;
-    text-align: left;
-    padding: 1em;
-    padding: 10px;
+
+ul {
+    list-style: none;
 }
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    text-align: center;
-    border-radius: 10px;
-}
-.family-tree-only-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-}
-.only-animtion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-}
-.done-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-}
+
 .scripting-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    margin: 15px 0 25px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.done-page,
+.only-animtion,
+.family-tree-only-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+button {
+    background: #ffffff;
+    color: #00a846;
+    padding: 14px 32px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.05rem;
+    border-radius: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+button:hover {
+    transform: translateY(-4px) scale(1.03);
+    background: #eaffea;
+    box-shadow: 0 14px 30px rgba(0,0,0,0.35);
+}
+
+footer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    box-shadow: 0 -5px 20px rgba(0,0,0,0.25);
 }
