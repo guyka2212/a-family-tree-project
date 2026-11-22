@@ -50,6 +50,16 @@ ul {
     list-style: none;
 }
 
+.finel-page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 25px;
+    font-size: 1.6rem;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
 .scripting-text {
     display: flex;
     justify-content: center;
